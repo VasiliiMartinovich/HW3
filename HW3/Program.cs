@@ -209,11 +209,11 @@ class Program
 
         switch (number)
         {
-            case int a when number % 2 != 0:
+            case int a when a % 2 != 0:
                 Console.WriteLine("Odd number");
                 break;
             
-            case int a when number % 2 == 0:
+            case int a when a % 2 == 0:
             Console.WriteLine("Even number");
             break;
         }
