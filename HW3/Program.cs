@@ -43,7 +43,8 @@ class Program
                 case "/":
                     if (operand2 == 0)
                     {
-                        throw new Exception("Divide by zero");
+                        Console.WriteLine("Error: divide by zero!");
+                        break;
                     }
                     else
                     {
